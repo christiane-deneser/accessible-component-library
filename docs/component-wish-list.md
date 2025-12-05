@@ -1,0 +1,84 @@
+# List of components that I find interesting to implement
+
+- [ ] Define colors: Start with black, white, third color; dark mode
+- [ ] Document Spacings
+- [ ] Typografie:
+  - [ ] Font Family
+  - [ ] Body Text
+  - [ ] UL
+  - [ ] Headings: H1 - H4
+- [ ] Document breakpoints, mobile first
+- [ ] Basic Page Layout (styling, regions, re-flow in responsive layouts)
+- [ ] Advanced Page Layout (all regions)
+- [ ] Account Layout (login)
+- [ ] Basic elements:
+  - [ ] Headings
+  - [ ] Body Text
+  - [ ] UL (later ol, dl)
+  - [ ] Link
+  - [ ] Button
+  - [ ] image (figure, picture)
+  - [ ] icons
+  - [ ] logo
+  - [ ] for later: check any [HTML elements reference](https://developer.mozilla.org/en-US/docs/Web/HTML/Reference/Elements)
+- [ ] More advanced elements:
+  - [ ] progress
+  - [ ] search
+  - [ ] table
+  - [ ] video
+  - [ ] youtube video embed
+  - [ ] iframe
+- [ ] Forms
+  - [ ] Registration Form
+  - [ ] Checkout Form
+  - [ ] Flight Booking Form
+  - [ ] Login Form
+  - [ ] Inbox
+  - [ ] Search Form
+  - [ ] Filter Form
+  - [ ] Upload Form
+  - [ ] Expense Form
+  - [ ] Long and complicated form
+- [ ] Components
+  - [ ] Main Navigation (Menu and Menubar Pattern)
+  - [ ] Menu Button Pattern
+  - [ ] Footer Navigation
+  - [ ] Side Nav
+  - [ ] In-page nav (jump links)
+  - [ ] Skip nav
+  - [ ] cookie banner
+  - [ ] Search
+  - [ ] Breadcrumb
+  - [ ] share
+  - [ ] pagination
+  - [ ] Teaser (heading, image, text, link)
+  - [ ] Teaser List
+  - [ ] Accordion
+  - [ ] disclosure
+  - [ ] modal dialog
+  - [ ] alert/notifications
+  - [ ] Alert and Message Dialogs
+  - [ ] Carousel
+  - [ ] slide show
+  - [ ] Header/hero element
+  - [ ] Combobox
+  - [ ] Disclosure (Show/Hide) Pattern
+  - [ ] feed
+  - [ ] Grid (Interactive Tabular Data and Layout Containers) Pattern
+  - [ ] Listbox Pattern
+  - [ ] meter
+  - [ ] slider
+  - [ ] Slider (Multi-Thumb) Pattern
+  - [ ] Spinbutton Pattern
+  - [ ] switch
+  - [ ] tabs
+  - [ ] toolbar
+  - [ ] tooltip
+  - [ ] tree view
+  - [ ] tree grid
+  - [ ] window splitter
+  - [ ] drag and drop
+  - [ ] flip card
+  - [ ] code snippet
+  - [ ] copy to clipboard
+  - [ ] sound preview
