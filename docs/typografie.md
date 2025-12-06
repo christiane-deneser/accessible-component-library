@@ -295,3 +295,48 @@ Typography modifies to improve pattern recognition:
 
 ---
 
+```
+<link rel="stylesheet" href="https://use.typekit.net/poe2wvs.css">
+```
+
+### Acumin Pro Regular
+
+```
+font-family: "acumin-pro", sans-serif;
+font-weight: 400;
+font-style: normal;
+```
+
+### Acumin Pro Italic
+
+```
+font-family: "acumin-pro", sans-serif;
+font-weight: 400;
+font-style: italic;
+```
+
+### Acumin Pro Semibold
+
+```
+font-family: "acumin-pro", sans-serif;
+font-weight: 600;
+font-style: normal;
+```
+
+### Acumin Pro Bold
+
+```
+font-family: "acumin-pro", sans-serif;
+font-weight: 700;
+font-style: normal;
+```
+
+### Acumin Pro Black
+
+```
+font-family: "acumin-pro", sans-serif;
+font-weight: 800;
+font-style: normal;
+```
+
+### 
