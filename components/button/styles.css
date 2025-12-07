@@ -1,0 +1,81 @@
+/* components/button/styles.scss */
+/* assets/scss/_base.scss */
+/* assets/scss/_reset.scss */
+/* Modern Minimal Reset */
+*, *::before, *::after {
+  box-sizing: border-box;
+}
+
+/* Remove default margins */
+* {
+  margin: 0;
+}
+
+/* Set core body defaults */
+body {
+  min-height: 100vh;
+  line-height: 1.5;
+  -webkit-font-smoothing: antialiased;
+}
+
+/* Improve text rendering */
+html {
+  -moz-text-size-adjust: none;
+  -webkit-text-size-adjust: none;
+  text-size-adjust: none;
+}
+
+/* Make media easier to work with */
+img, picture, video, canvas, svg {
+  display: block;
+  max-width: 100%;
+}
+
+/* Inherit fonts for form controls */
+input, button, textarea, select {
+  font: inherit;
+}
+
+/* Remove animations for people who prefer reduced motion */
+@media (prefers-reduced-motion: reduce) {
+  * {
+    animation-duration: 0.01ms !important;
+    animation-iteration-count: 1 !important;
+    transition-duration: 0.01ms !important;
+    scroll-behavior: auto !important;
+  }
+}
+/* assets/scss/_tokens.scss */
+:root {
+  --color-bg: #ffffff;
+  --color-text: #111111;
+  --space-xs: 0.25rem;
+  --space-s: 0.5rem;
+  --space-m: 1rem;
+  --space-l: 1.5rem;
+  --radius-pill: 999px;
+}
+
+.button {
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  padding: var(--space-s) var(--space-m);
+  border-radius: var(--radius-pill);
+  border: none;
+  cursor: pointer;
+  font-weight: 600;
+  background: #111;
+  color: #fff;
+}
+
+.button:focus-visible {
+  outline: 2px solid #000;
+  outline-offset: 2px;
+}
+
+.button--primary {
+  background: #ff764d;
+}
+
+/*# sourceMappingURL=styles.css.map */

@@ -1,0 +1,29 @@
+{
+  "name": "accessible-component-library",
+  "version": "1.0.0",
+  "description": "This repository contains a growing set of **accessible, framework-agnostic UI components**, designed with:",
+  "main": "index.js",
+  "directories": {
+    "doc": "docs"
+  },
+  "scripts": {
+    "sass": "sass assets/scss/global.scss assets/css/global.css && sass components:components",
+    "sass:watch": "sass --watch assets/scss/global.scss:assets/css/global.css components:components",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/christiane-deneser/accessible-component-library.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "type": "commonjs",
+  "bugs": {
+    "url": "https://github.com/christiane-deneser/accessible-component-library/issues"
+  },
+  "homepage": "https://github.com/christiane-deneser/accessible-component-library#readme",
+  "devDependencies": {
+    "sass": "^1.94.2"
+  }
+}
