@@ -1,0 +1,117 @@
+<!DOCTYPE html>
+<html lang="en">
+
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Accordion Component</title>
+    <link rel="stylesheet" href="styles.css">
+  </head>
+
+  <body>
+    <div id="id-accordion-group-0" class="accordion">
+      <h3>
+        <button type="button" aria-controls="id-accordion-panel-0" aria-expanded="false" data-accordion-trigger>
+          What an Accordion Does
+        </button>
+      </h3>
+      <div id="id-accordion-panel-0" role="region" aria-describedby="id-accordion-panel-0" class="accordion__panel">
+        <p>
+          An accordion is a stacked list of headings where each heading controls a hidden content area. Clicking a heading
+          reveals or hides its related panel. Accordions help reduce scrolling and keep information grouped and easy to
+          scan.
+        </p>
+        <h4>Key terms:</h4>
+        <ul>
+          <li><strong>Accordion header</strong> – The clickable title that opens or closes a section.</li>
+          <li><strong>Accordion panel</strong> – The content area linked to its header.</li>
+        </ul>
+      </div>
+
+      <h3>
+        <button type="button" aria-controls="id-accordion-panel-1" aria-expanded="false" data-accordion-trigger>
+          Markup Overview
+        </button>
+      </h3>
+      <div id="id-accordion-panel-1" role="region" aria-describedby="id-accordion-panel-1" class="accordion__panel">
+        <h4>Each accordion section is made of two parts:</h4>
+        <ul>
+          <li>A <strong>heading</strong> containing a button, which acts as the interactive control.</li>
+          <li>A <strong>panel</strong>, which holds the content that expands or collapses.</li>
+        </ul>
+
+        <h4>Important structure notes:</h4>
+        <ul>
+          <li>The header button controls exactly one panel.</li>
+          <li>The button is the only element inside the heading element.</li>
+          <li>Panels contain the actual text or UI elements that are revealed or hidden.</li>
+        </ul>
+      </div>
+
+      <h3>
+        <button type="button" aria-controls="id-accordion-panel-2" aria-expanded="false" data-accordion-trigger>
+          ARIA Roles & Attributes
+        </button>
+      </h3>
+      <div id="id-accordion-panel-2" role="region" aria-describedby="id-accordion-panel-2" class="accordion__panel">
+        <h4>Key attributes:</h4>
+        <ul>
+          <li>The header uses a <code>button</code> element (or an element with <code>role="button"</code>).</li>
+          <li>
+            The button sits inside a heading (<code>&lt;h2&gt;</code>, <code>&lt;h3&gt;</code>, etc.)
+            or an element with <code>role="heading"</code> and an appropriate <code>aria-level</code>.
+          </li>
+          <li>
+            The button uses:
+            <ul>
+              <li><code>aria-expanded="true|false"</code> to reflect the current state.</li>
+              <li><code>aria-controls="panel-id"</code> to reference the controlled content.</li>
+            </ul>
+          </li>
+          <li>
+            Panels may optionally use:
+            <ul>
+              <li><code>role="region"</code></li>
+              <li><code>aria-labelledby="button-id"</code>, pointing back to the header.</li>
+            </ul>
+          </li>
+          <li>
+            Use <code>role="region"</code> only when it helps clarify structure
+            (avoid overuse in large accordions).
+          </li>
+        </ul>
+      </div>
+
+      <h3>
+        <button type="button" aria-controls="id-accordion-panel-3" aria-expanded="false" data-accordion-trigger>
+          Keyboard Support
+        </button>
+      </h3>
+      <div id="id-accordion-panel-3" role="region" aria-describedby="id-accordion-panel-3" class="accordion__panel">
+        <p>This implementation uses essential keyboard interactions; optional keys can be added later.</p>
+        <h4>Required:</h4>
+        <ul>
+          <li>
+            <strong>Enter / Space</strong><br>
+            Toggle the currently focused accordion header (open when collapsed; close when expanded if closing is
+            allowed).
+          </li>
+          <li>
+            <strong>Tab / Shift + Tab</strong><br>
+            Move focus through all interactive elements in order.
+          </li>
+        </ul>
+
+        <h4>Optional (not implemented yet):</h4>
+        <ul>
+          <li>Arrow keys to move between accordion headers.</li>
+          <li>Home / End to jump to the first or last header.</li>
+        </ul>
+      </div>
+    </div>
+
+    <!-- Vanilla JS for this demo, defer → script runs after HTML is parsed -->
+    <script src="accordion.js" defer></script>
+  </body>
+
+</html>
